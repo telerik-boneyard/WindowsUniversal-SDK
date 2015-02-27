@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="HowTo_RemoveNavigationAnimation.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HowTo_RemoveNavigationAnimation">
+
+</Application>
