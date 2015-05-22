@@ -1,8 +1,10 @@
-﻿using System;
+﻿using LocalizationInChartUsingIStringResourceLoader;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Telerik.UI.Xaml.Controls.Chart;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,6 +27,8 @@ namespace ChartUsingIStringResourceLoader
         public MainPage()
         {
             this.InitializeComponent();
+
+            ChartLocalizationManager.Instance.StringLoader = new TelerikStringLoader();
         }
     }
 }

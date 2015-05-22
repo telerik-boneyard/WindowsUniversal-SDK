@@ -16,7 +16,7 @@ namespace PolarSeries_GettingStarted
                 double a = 0.5;
                 var b = (Math.PI / 180);
                 ObservableCollection<FinancialData> collection = new ObservableCollection<FinancialData>();
-                for (int i = 1; i < 5 * 360; i += 10)
+                for (int i = 1; i < 360; i += 10)
                 {
                     collection.Add(new FinancialData() { Angle = i, Value = (a * Math.Cos(20 * i * b)) });
                 }

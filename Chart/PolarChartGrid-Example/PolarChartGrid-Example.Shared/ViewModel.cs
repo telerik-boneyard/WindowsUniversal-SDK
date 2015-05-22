@@ -13,7 +13,7 @@ namespace PolarChartGrid_Example
             double a = 0.5;
             var b = (Math.PI / 180);
             List<CustomPoint> collection = new List<CustomPoint>();
-            for (int i = 1; i < 5 * 360; i += 10)
+            for (int i = 1; i < 360; i += 10)
             {
                 collection.Add(new CustomPoint() { Angle = i, Value = (a * Math.Cos(20 * i * b)) });
             }

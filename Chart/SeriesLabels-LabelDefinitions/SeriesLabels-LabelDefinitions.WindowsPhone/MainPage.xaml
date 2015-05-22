@@ -27,7 +27,7 @@
                     <telerikChart:ChartSeriesLabelDefinition HorizontalAlignment="Center" VerticalAlignment="Center">
                         <telerikChart:ChartSeriesLabelDefinition.Template>
                             <DataTemplate>
-                                <TextBlock Text="{Binding DataItem.LabelProperty}" Foreground="Red" FontSize="14" TextAlignment="Center"/>
+                                <TextBlock Text="{Binding DataItem.LabelProperty}" Foreground="Yellow" FontWeight="Bold" FontSize="14" TextAlignment="Center"/>
                             </DataTemplate>
                         </telerikChart:ChartSeriesLabelDefinition.Template>
                     </telerikChart:ChartSeriesLabelDefinition>
